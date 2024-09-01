@@ -45,8 +45,11 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # @JP added gems
-gem "sassc-rails"
 gem "bootstrap", "~> 5.2"
+gem "autoprefixer-rails"
+gem "simple_form"
+gem "sassc-rails"
+gem "font-awesome-sass", "~> 6.1"
 # @JP -------------------------------------------------------------------------
 
 group :development, :test do

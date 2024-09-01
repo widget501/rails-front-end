@@ -1,0 +1,8 @@
+/* app/assets/stylesheets/components/_logo.scss */
+
+.logo {
+  background-image: asset-url("logo.png");
+  background-size: cover;
+  height: 62px;
+  width: 200px;
+}
