@@ -1,0 +1,30 @@
+@import "home";
+@import "navbar";
+@import "bootstrap";
+
+$gray: #F4F4F4; // Defining a variable
+$spacer: 8px;
+
+body {
+  background: $gray; // Using this variable
+}
+
+p {
+  padding: $spacer ($spacer * 3);
+}
+
+.banner {
+  background: red;
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: grey;
+
+  &:hover {
+    color: black;
+  }
+}
